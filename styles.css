@@ -55,7 +55,7 @@ main {
     font-size: 16px;
     font-weight: 500;
 }
-.author p {
+.author span {
     font-size: 13px;
     font-weight: 500;
 }
@@ -90,11 +90,11 @@ main {
 .patrick .text h2  {
     color: hsl(0, 0%, 81%);
 }
-.daniel .author p,
+.daniel .author span,
 .daniel .text p,
-.jonathan .author p,
+.jonathan .author span,
 .jonathan .text p,
-.patrick .author p,
+.patrick .author span,
 .patrick .text p {
     color: hsla(0, 0%, 81%, 50%);
 }
@@ -108,9 +108,9 @@ main {
 .kira .text h2 {
     color: hsl(217, 19%, 35%);
 }
-.jeanette .author p,
+.jeanette .author span,
 .jeanette .text p,
-.kira .author p,
+.kira .author span,
 .kira .text p {
     color: hsla(217, 19%, 35%, 50%);
 }
